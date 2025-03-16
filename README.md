@@ -78,13 +78,15 @@ Request Body:
 
 ```bash
 {
-  "courseid": 1,
+  "courseid": 600,
   "title": "Course Title",
   "description": "Course Description",
+  "detail": "Course Detail",
   "instructor": "Instructor Name",
   "duration": 40,
   "category": "Category",
-  "image": <image file>
+  "image": <image file>,
+  "modules": ["Module 1", "Module 2", "Module 3"]
 }
 ```
 
@@ -101,12 +103,15 @@ Response: Returns the newly created course with a unique ID.
 
 ```bash
 {
+  "courseid": 600,
   "title": "Updated Course Title",
   "description": "Updated Description",
+  "detail": "Course Detail",
   "instructor": "Updated Instructor",
   "duration": 45,
   "category": "Updated Category",
-  "image": <image file>
+  "image": <image file>,
+  "modules": ["Module 1", "Module 2", "Module 3"]
 }
 ```
 
