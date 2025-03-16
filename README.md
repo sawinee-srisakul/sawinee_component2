@@ -131,7 +131,9 @@ Request Body:
 **Params:**
 
 - id: The unique course ID to delete.
-  **Response:**
+
+**Response:**
+
 - Confirmation of course deletion.
 
 ### File Uploads
