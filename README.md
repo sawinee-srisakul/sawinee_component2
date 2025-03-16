@@ -53,21 +53,26 @@ npm run start
 
 ### API Endpoints
 
-1. Retrieve All Courses
-   GET /courses
+### 1. Retrieve All Courses
 
-Response: A list of all courses.
+**GET** `/courses`
 
-2. Retrieve a Specific Course
-   GET /courses/:id
+**Response:**
 
-Params:
+- A list of all courses.
 
-id: The unique course ID.
-Response: Returns the details of the specified course.
+### 2. Retrieve a Specific Course
 
-3. Add a New Course
-   POST /courses
+**GET** /courses/:id
+
+**Params:**
+
+- id: The unique course ID.
+  Response: Returns the details of the specified course.
+
+### 3. Add a New Course
+
+**POST** /courses
 
 Request Body:
 
@@ -85,13 +90,14 @@ Request Body:
 
 Response: Returns the newly created course with a unique ID.
 
-4. Update a Course by ID
-   PUT /courses/:courseId
+### 4. Update a Course by ID
 
-Params:
+**PUT** /courses/:id
 
-courseId: The course ID to update.
-Request Body:
+**Params:**
+
+- id: The unique course ID to update.
+  Request Body:
 
 ```bash
 {
@@ -104,14 +110,15 @@ Request Body:
 }
 ```
 
-Response: Returns the updated course data.
+**Response:** Returns the updated course data.
 
-5. Delete a Course by ID
-   DELETE /courses/:id
+### 5. Delete a Course by ID
 
-Params:
+**DELETE** /courses/:id
 
-id: The course ID to delete.
+**Params:**
+
+id: - id: The unique course ID to delete.
 Response: Confirmation of course deletion.
 
 ### File Uploads
