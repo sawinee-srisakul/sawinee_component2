@@ -68,7 +68,10 @@ npm run start
 **Params:**
 
 - id: The unique course ID.
-  Response: Returns the details of the specified course.
+
+**Response:**
+
+- Returns the details of the specified course.
 
 ### 3. Add a New Course
 
@@ -90,7 +93,9 @@ Request Body:
 }
 ```
 
-Response: Returns the newly created course with a unique ID.
+**Response:**
+
+- Returns the newly created course with a unique ID.
 
 ### 4. Update a Course by ID
 
@@ -115,7 +120,9 @@ Response: Returns the newly created course with a unique ID.
 }
 ```
 
-**Response:** Returns the updated course data.
+**Response:**
+
+- Returns the updated course data.
 
 ### 5. Delete a Course by ID
 
@@ -123,8 +130,9 @@ Response: Returns the newly created course with a unique ID.
 
 **Params:**
 
-id: - id: The unique course ID to delete.
-Response: Confirmation of course deletion.
+- id: The unique course ID to delete.
+  **Response:**
+- Confirmation of course deletion.
 
 ### File Uploads
 
